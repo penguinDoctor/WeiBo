@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD93C2F0248A754F0067B9D2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2EF248A754F0067B9D2 /* BaseViewController.swift */; };
+		DD93C2F2248A75680067B9D2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2F1248A75680067B9D2 /* BaseNavigationController.swift */; };
+		DD93C2F4248A757C0067B9D2 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2F3248A757C0067B9D2 /* MainTabController.swift */; };
+		DD93C2F6248A75950067B9D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2F5248A75950067B9D2 /* HomeViewController.swift */; };
+		DD93C2F8248A75A10067B9D2 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2F7248A75A10067B9D2 /* PublishViewController.swift */; };
+		DD93C2FA248A75AC0067B9D2 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2F9248A75AC0067B9D2 /* AccountViewController.swift */; };
+		DD93C2FC248B43F10067B9D2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2FB248B43F10067B9D2 /* Constant.swift */; };
+		DD93C2FE248BA9DE0067B9D2 /* MainTabObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2FD248BA9DE0067B9D2 /* MainTabObj.swift */; };
+		DD93C300248BB2A60067B9D2 /* MainTabConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93C2FF248BB2A60067B9D2 /* MainTabConstant.swift */; };
 		DDAF5229248A574A00701886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF5228248A574A00701886 /* AppDelegate.swift */; };
 		DDAF522B248A574A00701886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF522A248A574A00701886 /* SceneDelegate.swift */; };
 		DDAF522D248A574A00701886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF522C248A574A00701886 /* ViewController.swift */; };
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD93C2EF248A754F0067B9D2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DD93C2F1248A75680067B9D2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		DD93C2F3248A757C0067B9D2 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		DD93C2F5248A75950067B9D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DD93C2F7248A75A10067B9D2 /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		DD93C2F9248A75AC0067B9D2 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		DD93C2FB248B43F10067B9D2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DD93C2FD248BA9DE0067B9D2 /* MainTabObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabObj.swift; sourceTree = "<group>"; };
+		DD93C2FF248BB2A60067B9D2 /* MainTabConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabConstant.swift; sourceTree = "<group>"; };
 		DDAF5225248A574A00701886 /* FXWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAF5228248A574A00701886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDAF522A248A574A00701886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +94,259 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD93C2B7248A73630067B9D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF5228248A574A00701886 /* AppDelegate.swift */,
+				DDAF522A248A574A00701886 /* SceneDelegate.swift */,
+				DDAF522C248A574A00701886 /* ViewController.swift */,
+				DDAF522E248A574A00701886 /* Main.storyboard */,
+				DDAF5231248A574C00701886 /* Assets.xcassets */,
+				DDAF5233248A574C00701886 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DD93C2C1248A73DC0067B9D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2D5248A74620067B9D2 /* Base */,
+				DD93C2DD248A74D90067B9D2 /* Main */,
+				DD93C2D6248A74620067B9D2 /* Lib */,
+				DD93C2D3248A74620067B9D2 /* Login */,
+				DD93C2D4248A74620067B9D2 /* Network */,
+				DD93C2D7248A74620067B9D2 /* Resource */,
+				DD93C2D8248A74620067B9D2 /* SupportFile */,
+				DD93C2D9248A74620067B9D2 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DD93C2D3248A74620067B9D2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2EC248A74F00067B9D2 /* Controller */,
+				DD93C2EA248A74F00067B9D2 /* Model */,
+				DD93C2EB248A74F00067B9D2 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DD93C2D4248A74620067B9D2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD93C2D5248A74620067B9D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2DB248A74CE0067B9D2 /* Controller */,
+				DD93C2DA248A74CE0067B9D2 /* Model */,
+				DD93C2DC248A74CE0067B9D2 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DD93C2D6248A74620067B9D2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DD93C2D7248A74620067B9D2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DD93C2D8248A74620067B9D2 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2EE248A75380067B9D2 /* Constant */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		DD93C2D9248A74620067B9D2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2ED248A75160067B9D2 /* LogFIle */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DD93C2DA248A74CE0067B9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2FD248BA9DE0067B9D2 /* MainTabObj.swift */,
+				DD93C2FF248BB2A60067B9D2 /* MainTabConstant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD93C2DB248A74CE0067B9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2EF248A754F0067B9D2 /* BaseViewController.swift */,
+				DD93C2F1248A75680067B9D2 /* BaseNavigationController.swift */,
+				DD93C2F3248A757C0067B9D2 /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD93C2DC248A74CE0067B9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD93C2DD248A74D90067B9D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2DE248A74D90067B9D2 /* Home */,
+				DD93C2E2248A74D90067B9D2 /* Publish */,
+				DD93C2E6248A74D90067B9D2 /* Account */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DD93C2DE248A74D90067B9D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2DF248A74D90067B9D2 /* Controller */,
+				DD93C2E0248A74D90067B9D2 /* Model */,
+				DD93C2E1248A74D90067B9D2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD93C2DF248A74D90067B9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2F5248A75950067B9D2 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD93C2E0248A74D90067B9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD93C2E1248A74D90067B9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD93C2E2248A74D90067B9D2 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2E3248A74D90067B9D2 /* Controller */,
+				DD93C2E4248A74D90067B9D2 /* Model */,
+				DD93C2E5248A74D90067B9D2 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		DD93C2E3248A74D90067B9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2F7248A75A10067B9D2 /* PublishViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD93C2E4248A74D90067B9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD93C2E5248A74D90067B9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD93C2E6248A74D90067B9D2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2E7248A74D90067B9D2 /* Controller */,
+				DD93C2E8248A74D90067B9D2 /* Model */,
+				DD93C2E9248A74D90067B9D2 /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		DD93C2E7248A74D90067B9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2F9248A75AC0067B9D2 /* AccountViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD93C2E8248A74D90067B9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD93C2E9248A74D90067B9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD93C2EA248A74F00067B9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD93C2EB248A74F00067B9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD93C2EC248A74F00067B9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD93C2ED248A75160067B9D2 /* LogFIle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LogFIle;
+			sourceTree = "<group>";
+		};
+		DD93C2EE248A75380067B9D2 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DD93C2FB248B43F10067B9D2 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		DDAF521C248A574A00701886 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +370,8 @@
 		DDAF5227248A574A00701886 /* FXWeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				DDAF5228248A574A00701886 /* AppDelegate.swift */,
-				DDAF522A248A574A00701886 /* SceneDelegate.swift */,
-				DDAF522C248A574A00701886 /* ViewController.swift */,
-				DDAF522E248A574A00701886 /* Main.storyboard */,
-				DDAF5231248A574C00701886 /* Assets.xcassets */,
-				DDAF5233248A574C00701886 /* LaunchScreen.storyboard */,
+				DD93C2C1248A73DC0067B9D2 /* Classes */,
+				DD93C2B7248A73630067B9D2 /* Other */,
 				DDAF5236248A574C00701886 /* Info.plist */,
 			);
 			path = FXWeiBo;
@@ -260,8 +527,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDAF522D248A574A00701886 /* ViewController.swift in Sources */,
+				DD93C2F0248A754F0067B9D2 /* BaseViewController.swift in Sources */,
+				DD93C2F4248A757C0067B9D2 /* MainTabController.swift in Sources */,
 				DDAF5229248A574A00701886 /* AppDelegate.swift in Sources */,
+				DD93C2F8248A75A10067B9D2 /* PublishViewController.swift in Sources */,
+				DD93C2F2248A75680067B9D2 /* BaseNavigationController.swift in Sources */,
+				DD93C300248BB2A60067B9D2 /* MainTabConstant.swift in Sources */,
+				DD93C2F6248A75950067B9D2 /* HomeViewController.swift in Sources */,
+				DD93C2FE248BA9DE0067B9D2 /* MainTabObj.swift in Sources */,
+				DD93C2FC248B43F10067B9D2 /* Constant.swift in Sources */,
 				DDAF522B248A574A00701886 /* SceneDelegate.swift in Sources */,
+				DD93C2FA248A75AC0067B9D2 /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
